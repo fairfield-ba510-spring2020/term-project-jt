@@ -14,10 +14,11 @@ __By Jessica Veroline and Tetiana Nadkernychna__
 |Name             | Description                                        |
 |:----------------|:---------------------------------------------------|
 |**`Class_id`**   | a unique identifier for each class                 |
-|*`Course_id`*    | a unique identifier for each course                |
-|*`Section_id`*   | a unique identifier for each section               |
-|*`Term_id`*      | a unique identifier for each term                  |
 |*`Instructor_id`*| a unique identifier for each instructor            |
+|*`Course_id`*    | a unique identifier for each course                |
+|`Section`        | an identifier for each section                     |
+|`crn`            | an identifier for each course registration number  |
+|`Term`           | an identifier for each term                        |
 |`Cap`            | the max number of students the class can hold      |
 |`Act`            | the number of students in the class                |
 |`Rem`            | the number of spots available in the class         |
@@ -37,9 +38,7 @@ __By Jessica Veroline and Tetiana Nadkernychna__
 |Name              | Description                                           |
 |:-----------------|:------------------------------------------------------|
 |**`Location_id`** | a unique identifier for each class                    |
-|`Capacity`        |the maximum number of classes that a building can hold |  
-|`Building`        |the building in which a class is held                  |
-|`Room`            |the room in which a class is held                      |
+|`Location`        |the room and the building in which a class is held         |
 
 ## Instructor
 |Name                | Description                                                    |
@@ -55,7 +54,8 @@ __By Jessica Veroline and Tetiana Nadkernychna__
 |:-----------------|:---------------------------------------------------------------------------------|
 |**`Course_id`**   | a unique identifier for each course                                              |
 |*`Program_id`*    |a unique identifier for each program                                              |
-|*`Term_id`*       |a unique identifier for each term                                                 |
+|`Catalog_year`    |catalog year                                                                      |
+|`CatalogID`       |the ID of the course in the catalog                                               |
 |`Course_title`    |the name of the course                                                            |
 |`Description`     |an explanation what the course entails                                            |
 |`Credits`         |the number of credits that a student will earn from taking the course             |
@@ -68,4 +68,5 @@ __By Jessica Veroline and Tetiana Nadkernychna__
 |Name             | Description                                            |
 |:----------------|:-------------------------------------------------------|
 |**`Program_id`** |a unique identifier for each program                    |
+|`Program_code`   |the code of the program in which a course falls under   |
 |`Program_name`   |the name of the program in which a course falls under   |
