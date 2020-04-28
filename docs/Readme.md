@@ -6,14 +6,14 @@ __By Jessica Veroline and Tetiana Nadkernychna__
 
 ---
 ## 1. ***CourseData*** database creation
-- Created a `CourseDataETL.ipynb`journal. 
+- Created a `CourseDataETL.ipynb` journal. 
 - [CourseDataERD](http://github.com/fairfield-ba510-spring2020/term-project-jt/blob/master/docs/CourseDataERD.pdf) Displays the information that can be found in our Course Data ERD. 
-- We created a desing that included the tables with data joined by the foreign keys. The relations were normalized.
+- We created a design that included the tables with data joined by the foreign keys. The relations were normalized.
 - All sourse data was imported into temporary tables.
 - The data was then imported into the **CourseData** database. 
 
 
-[CourseDataETL](https://github.com/fairfield-ba510-spring2020/term-project-jt/blob/master/CourseDataTests.ipynb)
+[CourseDataETL](https://github.com/fairfield-ba510-spring2020/term-project-jt/blob/master/CourseDataETL.ipynb)
 
 ---
 ## 2. Test of database integrity
@@ -64,7 +64,7 @@ __By Jessica Veroline and Tetiana Nadkernychna__
 - This query shows how many distinct classes (not meeting times) each *Dolan School of Business* auditorium holds in a given term. 
 - With this information we can see how often each room is occupied and should there be additional expansion of the building or if there are rarely occupied rooms that can be used for other purposes.
 
-### Question 4
+#### Question 4
 - ***What is the student to teacher ratio by program?***
 - When evaluating whether or not more faculty should be hired, the University can use this query. It shows the number of students divided by the number of sections for a program. 
 - We mainly focused on the business school, but that can easily be changed to evaluate other schools. After running the query, we found that marketing classes tend to have larger class sizes, nearing 30 students per class. As demand increased between 2017 and 2018, we see that the University responded by increasing the number of sections taught. 
