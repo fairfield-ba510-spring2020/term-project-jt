@@ -1,4 +1,4 @@
-![Logo](docs/images/Logo1.png)
+![Logo](images/Logo1.png)
 # BA510 Final Project
 __Spring 2020__
 
@@ -52,27 +52,27 @@ __By Jessica Veroline and Tetiana Nadkernychna__
 #### Question 1
 - ***What was the total number of hours each professor taught during 2018?***
 - We thought it could be interesting to see the total number of hours each professor teaches because it could tell us if another professor needs to be hired. If one professor is working more hours than he or she should be, then another professor may need to be hired to make up the difference. 
-- When we set the limit to 5, we can already see how *Aaron R. Van Dyke* taught 211 hours while two other professors taught 70 hours. Thats a big difference, and it could be that the other two professors are part time or adjunct professors. 
+- When we set the limit to 5, we can already see how *Aaron R. Van Dyke* taught 211 hours while two other professors taught 70 hours. That is a big difference, and it could be that the other two professors are part time or adjunct professors. 
 
 #### Question 2
 - ***What was the total number of professors that worked within each program during 2018?*** 
 - This could be interesting to see which program is most popular at *Fairfield University*. As the number of students within a program increases, the demand for professors increases as well. 
-- When we limit the query to five results, we see that the nursing program has the most professors with 75. Fairfield is known for its nursing school and there are many nursing students who attend the university so it is not very surprising. Programs such as English and science are a requirement for Fairfield’s core curriculum so it is not surprising that those programs are also rather large. 
+- When we limit the query to five results, we see that the nursing program has the most professors with 75. Fairfield is known for its nursing school and there are many nursing students who attend the *Fairfield* so it is not very surprising. Programs such as English and science are a requirement for Fairfield’s core curriculum so it is not surprising that those programs are also rather large. 
 
 #### Question 3
-- ***What were the most used classrooms in DSB during 2018?***
+- ***What were the most used classrooms in DSB during each term?***
 - This query shows how many distinct classes (not meeting times) each *Dolan School of Business* auditorium holds in a given term. 
 - With this information we can see how often each room is occupied and should there be additional expansion of the building or if there are rarely occupied rooms that can be used for other purposes.
 
 ### Question 4
 - ***What is the student to teacher ratio by program?***
-- This query could be used to show which programs require more professors. When evaluating whether or not more faculty should be hired, the University can use this query. It shows the number of students divided by the number of sections for a program. 
+- When evaluating whether or not more faculty should be hired, the University can use this query. It shows the number of students divided by the number of sections for a program. 
 - We mainly focused on the business school, but that can easily be changed to evaluate other schools. After running the query, we found that marketing classes tend to have larger class sizes, nearing 30 students per class. As demand increased between 2017 and 2018, we see that the University responded by increasing the number of sections taught. 
 
 
 [CourseDataWarehouseDemo](https://github.com/fairfield-ba510-spring2020/term-project-jt/blob/master/CourseDataWarehouseDemo.ipynb)
 
 
-END.
+## END.
 
 ---
